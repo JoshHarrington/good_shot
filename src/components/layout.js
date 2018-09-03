@@ -49,18 +49,18 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           link={[
-            { rel: 'icon', type: 'image/png', sizes: '196x196', href: Favicon196 },
-            { rel: 'icon', type: 'image/png', sizes: '96x96', href: Favicon96 },
-            { rel: 'icon', type: 'image/png', sizes: '32x32', href: Favicon32 },
             { rel: 'icon', type: 'image/png', sizes: '16x16', href: Favicon16 },
+            { rel: 'icon', type: 'image/png', sizes: '32x32', href: Favicon32 },
+            { rel: 'icon', type: 'image/png', sizes: '96x96', href: Favicon96 },
             { rel: 'icon', type: 'image/png', sizes: '128x128', href: Favicon128 },
+            { rel: 'icon', type: 'image/png', sizes: '196x196', href: Favicon196 },
             { rel: 'apple-touch-icon-precomposed', sizes: '57x57', href: AppleTouchIcon57 },
-            { rel: 'apple-touch-icon-precomposed', sizes: '114x114', href: AppleTouchIcon114 },
-            { rel: 'apple-touch-icon-precomposed', sizes: '72x72', href: AppleTouchIcon72 },
-            { rel: 'apple-touch-icon-precomposed', sizes: '144x144', href: AppleTouchIcon144 },
             { rel: 'apple-touch-icon-precomposed', sizes: '60x60', href: AppleTouchIcon60 },
-            { rel: 'apple-touch-icon-precomposed', sizes: '120x120', href: AppleTouchIcon120 },
+            { rel: 'apple-touch-icon-precomposed', sizes: '72x72', href: AppleTouchIcon72 },
             { rel: 'apple-touch-icon-precomposed', sizes: '76x76', href: AppleTouchIcon76 },
+            { rel: 'apple-touch-icon-precomposed', sizes: '114x114', href: AppleTouchIcon114 },
+            { rel: 'apple-touch-icon-precomposed', sizes: '120x120', href: AppleTouchIcon120 },
+            { rel: 'apple-touch-icon-precomposed', sizes: '144x144', href: AppleTouchIcon144 },
             { rel: 'apple-touch-icon-precomposed', sizes: '152x152', href: AppleTouchIcon152 },
           ]}
           meta={[
