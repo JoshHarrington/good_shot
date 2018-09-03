@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import logo from 'src/images/Good_shot_logo.svg'
 import Layout from '../components/layout'
 
+
 const LogoStyled = styled.img`
   max-width: 6rem;
   margin-bottom: 0;
@@ -17,7 +18,7 @@ const IndexPage = () => (
     <hr/>
     <h2>Projects</h2>
     <ul>
-      <li>Stockcubes</li>
+      <li><p><a href="https://www.stockcub.es" target="blank">Stockcubes</a> - A project to help people manage their household food stock and reduce their food waste.</p></li>
     </ul>
   </Layout>
 )
