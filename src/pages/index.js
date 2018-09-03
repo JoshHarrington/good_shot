@@ -16,7 +16,7 @@ const IndexPage = () => (
     <h2>Capitalism with heart</h2>
     <p>Good Shot supports ideas putting people and planet before profit. We're all about actionable projects that help people, animals or have an environmental focus.</p>
     <hr/>
-    <h2>Projects</h2>
+    <h3>Projects</h3>
     <ul>
       <li><p><a href="https://www.stockcub.es" target="blank">Stockcubes</a> - A project to help people manage their household food stock and reduce their food waste.</p></li>
     </ul>
