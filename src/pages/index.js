@@ -18,7 +18,7 @@ const IndexPage = () => (
     <hr/>
     <h3>Projects</h3>
     <ul>
-      <li><p><a href="https://www.stockcub.es" target="blank">Stockcubes</a> - A project to help people manage their household food stock and reduce their food waste.</p></li>
+      <li><p><a href="https://www.getstockcubes.com" target="blank">Stockcubes</a> - A project to help people manage their household food stock and reduce their food waste.</p></li>
     </ul>
   </Layout>
 )
